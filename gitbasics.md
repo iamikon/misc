@@ -7,7 +7,7 @@ Just an introduction to Git and GitHub using our Open Your Mouth recipes repo.
 Determine your Operating System.
 - For Windows, visit [git for windows](https://msysgit.github.io/).
 - For OSX, open a terminal and enter
-  xcode-select --install
+  	xcode-select --install
 Install the command line tools, which will install git.
 - For Linux use your package manager!
 
