@@ -1,0 +1,57 @@
+if no github account goto github.com and sign up, if you have an account then just proceed.
+
+open a terminal
+
+to associate your git with your github
+
+enter
+
+— $ git --config global user.name “YOUR NAME”
+— $ git --config global user.email “YOUR GITHUB EMAIL”
+
+to create a repo and a local version
+
+go to your github page and create a repo
+enter the repo
+find the clone address and copy it, it will be something like
+https://github.com/iamikon/OpenYourMouth.git
+go to your terminal and enter
+
+— $ git clone https://github.com/iamikon/OpenYourMouth.git
+
+this downloads any files from your github repo and sets up a git directory
+
+add your files and folders to the directory, in this example it would be OpenYourMouth
+when your files are added and you are happy with any changes you made it is time to add and commit
+you can do this separately or all in one command
+to do it separately enter
+
+— $ git add filename1 filename2
+
+this adds the specific files but to add all files and all changes
+
+— $ git add .
+
+then it is time to commit your changes to your github repo
+
+— $ git commit --message “some message here”
+
+if you do not use --message your default editor will pop up and ask you to enter a message
+to do all of the things above in one step
+
+— $ git commit --all --message "some message here"
+
+now go check your handy work on your github page!
+
+to manage forks you have to first fork the desired repo from the github page
+navigate to the repo you want to fork https://github.com/rikai/OpenYourMouth
+on this page there is a green button and another button with the word Fork
+you can use either of these to fork the repo to your account and have your own copy to edit and add to
+clone the forked repo from your account
+
+— $ git clone https://github.com/iamikon/OpenYourMouth.git
+
+make all your changes and such as you would with a repo you created, everything is the same!
+after all your changes are made and committed to your fork of the repo go back to the github site
+go into your version of the repo and find the little button that says 'Pull Request'
+click that to submit your changes to be merged into the original/master repository
